@@ -35,7 +35,7 @@ header {
 
 .main-nav-list {
 	padding: 0;
-	margin: 0;
+	margin: 16px 0 0;
 	list-style: none;
 }
 
@@ -100,4 +100,20 @@ header {
 	height: 65px;
 	letter-spacing: 0.1em;
 	text-transform: uppercase;
+}
+
+.text-section {
+	width: 30%;
+	text-align: center;
+	margin: auto;
+}
+
+.main-text-section h3 {
+	font-size: 2rem;
+	margin: 119px 0 50px;
+}
+
+.main-text-section p {
+	color: #727272;
+	margin-bottom: 100px;
 }
