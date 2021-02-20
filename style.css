@@ -103,18 +103,19 @@ header {
 	text-transform: uppercase;
 }
 
-.text-section, .how {
+.text-section {
 	width: 35%;
 	text-align: center;
 	margin: auto;
 }
 
-.main-text-section h3, .content-how h3 {
+.title-lorem-ipsum {
 	font-size: 2rem;
 	margin: 119px 0 50px;
+	padding-top: 25%;
 }
 
-.main-text-section p, .content-how p {
+.lorem-ipsum {
 	color: #727272;
 	margin-bottom: 100px;
 }
@@ -164,4 +165,103 @@ header {
 	align-items: center;
 	justify-content: space-around;
 	margin: 7% auto;
+}
+
+
+.main-form {
+	background-color: #EEEFF1;
+}
+
+
+.form {
+	padding: 1rem;
+	padding-bottom: 6rem;
+	border-radius: 6px;
+	margin: 0;
+}
+
+
+.form-section {
+	display: flex;
+	flex-direction: column;
+	margin: auto 33%;
+}
+
+.form-part {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	margin-bottom: 2rem;
+}
+
+.form-control {
+	position: relative;
+}
+
+.form-input {
+	width: 100%;
+	min-width: 100px;
+	height: 50px;
+	padding: 6px 12px;
+	outline: none;
+	font: 1rem Roboto, san-serif;
+	border: none;
+}
+
+.form-textarea {
+	width: 100%;
+	min-width: 100px;
+	padding: 8px 6px 12px 6px;
+	outline: none;
+	resize: none;
+	font: 1rem Roboto, san-serif;
+	border: none;
+}
+
+.form-actions {
+	display: flex;
+	align-self: center;
+}
+
+.second {
+	width: 190px;
+	height: 55px;
+	margin-top: 3rem;
+}
+
+.control {
+	width: 47%;
+}
+
+.footer {
+	background-color: #34547A;
+	display: flex;
+}
+
+.footer-text {
+	color: #FFFFFF;
+}
+
+.footer-content {
+	width: 100%;
+	margin: auto 14%;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0px;
+}
+
+.footer-title {
+	font-size: 21px;
+	font-weight: 500;
+	margin-bottom: 1.5rem;
+}
+
+.footer-copyright {
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.footer-picture {
+	display: flex;
+	align-self: center;
 }
