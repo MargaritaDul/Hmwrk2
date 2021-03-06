@@ -105,9 +105,13 @@ header {
 }
 
 .text-section {
-	width: 35%;
+	width: 55%;
 	text-align: center;
 	margin: auto;
+}
+
+.img-40projects {
+	width: 100%;
 }
 
 .title-lorem-ipsum {
@@ -125,6 +129,7 @@ header {
 .lorem-ipsum {
 	color: #727272;
 	margin-bottom: 100px;
+	line-height: 26px;
 }
 
 .skills-section {
@@ -138,11 +143,12 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	margin: auto;
+	gap: 5rem;
 }
 
 .adobe {
 	color: #727272;
-	padding-bottom: 7%;
+	margin-bottom: 5%;
 	border-bottom: 0.5rem solid #34547A;
 	border-width: thick;
 }
@@ -152,13 +158,18 @@ header {
 	flex-direction: column;
 	justify-content: space-around;
 	width: 100%;
-	height: 400px;
 	margin-right: 5%;
 }
 
 .myskills {
 	font-size: 2rem;
 	font-weight: 500;
+	margin-bottom: 5%;
+}
+
+
+.img-man {
+	width:100%;
 }
 
 .video {
@@ -183,18 +194,29 @@ header {
 	border-radius: 50px;
 }
 
+
+
 .button-video:after {
 	content: ''; 
 	position: absolute;
 	border: 19px solid transparent; 
 	border-left: 32px solid black;
-	top: 38%;
-	left: 51.25%;
+	top: 38.5%;
+	left: 52%;
 	right: 0%;
+}
+
+.section-how-content {
+	width: 70%;
+	margin:auto;
 }
 
 .content-how h3 {
 	padding-top: 100px;
+}
+
+.img-section-how {
+	width: 100%;
 }
 
 
@@ -206,6 +228,7 @@ header {
 .icon {
 	display: block;
 	object-fit: cover;
+	width: 100%;
 }
 
 .section-microsoft {
@@ -213,9 +236,16 @@ header {
 	align-items: center;
 	justify-content: space-around;
 	margin: 7% auto;
+	gap: 1rem;
 }
+
+.img-microsoft {
+	width: 100%;
+}
+
 .section-image {
 	position: relative;
+	width: calc(100%/4);
 }
 .section-image-active:after {
 	content: '';
@@ -224,7 +254,6 @@ header {
 	top: 0;
 	left: 0;
 	right: 0;
-	width: 100%;
 	height: 100%;
 	background-color: rgba(52, 84, 122, 0.8);
 }
@@ -236,7 +265,6 @@ header {
 	top: 0;
 	left: 0;
 	right: 0;
-	width: 100%;
 	height: 100%;
 	background-image: url("images/view.png");
 	background-position: center;
@@ -250,7 +278,6 @@ header {
 	top: 0;
 	left: 0;
 	right: 0;
-	width: 100%;
 	height: 100%;
 	background-color: rgba(52, 84, 122, 0.8);
 }
@@ -262,7 +289,6 @@ header {
 	top: 0;
 	left: 0;
 	right: 0;
-	width: 100%;
 	height: 100%;
 	background-image: url("images/view.png");
 	background-position: center;
@@ -277,6 +303,10 @@ header {
 	background-color: #EEEFF1;
 }
 
+.main-form-section {
+	width: 70%;
+	margin: auto;
+}
 
 .form {
 	padding: 1rem;
@@ -289,7 +319,7 @@ header {
 .form-section {
 	display: flex;
 	flex-direction: column;
-	margin: auto 33%;
+	margin: auto 18%;
 }
 
 .form-part {
