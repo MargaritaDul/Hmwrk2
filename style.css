@@ -9,11 +9,13 @@ body {
 	font-size: 16px;
 	font: 1rem Poppins, san-serif;
 	font-weight: 400;
-	letter-spacing: 0.0125em;
+	letter-spacing: 0.2px;
+	line-height: 16px;
 }
 .top-section {
 	background-image: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
 }
+
 .container {
 	width: 85%;
 	margin: auto;
@@ -46,6 +48,7 @@ body {
 	margin-left: 42px;
 	display: flex;
 	align-items: stretch;
+	line-height: 1.7rem;
 }
 .btn {
 	background-color: transparent;
@@ -56,6 +59,11 @@ body {
 	height: 52px;
 	border-radius: 39px;
 	font-weight: 500;
+	font: 1rem Poppins, san-serif;
+}
+
+.btn-nav {
+	box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
 }
 .top-section-content {
 	display: flex;
@@ -65,25 +73,29 @@ body {
 }
 .two-buttons {
 	display: flex;
+	width: 100%;
+    justify-content: center;
+    gap: 1rem;
 }
 .headline {
 	text-align: center;
 	font-weight: 900;
 	font-size: 3.4rem;
-	line-height: 65px;
+	line-height: 4rem;
 	color: white;
 	margin-bottom: 2%;
 	margin-top: 10%;
 }
 .sub-heading {
 	font-weight: bold;
-	line-height: 20px;
+	line-height: 1.25rem;
 	color: #E5E5E5;
 	margin-bottom: 6%;
 }
 .btn-top {
 	width: 184px;
 	height: 52px;
+	box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
 }
 .black-letter {
 	color: #112D57;
@@ -101,6 +113,7 @@ body {
 	display: flex;
 	gap: 2rem;
 	height: 440px;
+	margin-bottom: 10%;
 }
 .figmaland-flex-item {
 	display: flex;
@@ -122,20 +135,86 @@ body {
 	border-radius: 10px;
 }
 
+.figmaland-flex p {
+	line-height: 1.6rem;
+}
+
 .section-figmaland h3 {
 	font-weight: bold;
 	font-size: 1.875rem;
 	line-height: 2rem;
 }
-
 .blue-link {
 	color: #03D6F3;
 }
+
+
 
 h2 {
 	font-weight: 500;
 	font-size: 2.875rem;
 	line-height: 3.5rem;
-	margin: 8% 15%;
 	text-align: center;
+}
+
+.figmaland-title {
+	margin: 8% 15%;
+}
+.process-title {
+	text-align: start;
+	margin-bottom: 0;
+}
+.process-text {
+	font-weight: 700;
+	line-height: 1.25rem;
+	color: #5C5C5C;
+	margin-right: 5%;
+}
+
+.section-process-container {
+	display: flex;
+	margin: 0 6%;
+}
+
+.process-container {
+	margin-top: 15%;
+}
+
+.process-content {
+	display: flex;
+	flex-direction: column;
+	margin: 7% 0;
+	gap: 1rem;
+}
+
+.wide-blue-btn {
+	background-color: #03D6F3;
+	border: 1px solid #03D6F3;
+	width: 216px;
+	height: 52px;
+}
+
+.wide-white-btn {
+	background-color: #FFFFFF;
+	color: #03D6F3;
+	border: 1px solid #03D6F3;
+	width: 203px;
+	height: 52px;
+}
+
+.two-wide-buttons {
+	display: flex;
+    gap: 1rem;
+}
+
+
+
+
+
+
+
+
+
+.businesse-flex {
+	display: flex;
 }
