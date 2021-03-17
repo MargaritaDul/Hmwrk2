@@ -123,91 +123,95 @@ body {
 	padding: 7%;
 }
 
-
-.figmaland-flex-container {
+.figmaland-title {
+	margin: 8% 15%;
+}
+.figmaland-flex {
 	display: flex;
 	gap: 2rem;
 	height: 440px;
 	margin-bottom: 10%;
 }
-.figmaland-flex-item {
+.figmaland-flex-column {
 	display: flex;
 	flex-direction: column;
 	margin: 13%;
 	justify-content: space-evenly;
 }
 
-.figmaland-flex:nth-child(2) {
+.figmaland-flex-row:nth-child(2) {
 	background-image: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
 	color: white;
 }
 
-.grey-text {
+.figmaland-flex__text--grey {
 	color: #5C5C5C;
 }
-.figmaland-flex {
+.figmaland-flex-row {
 	box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
 	border-radius: 10px;
 }
 
-.figmaland-flex p {
+.figmaland-flex__text {
 	line-height: 1.6rem;
 }
 
-.section-figmaland h3 {
+.figmaland-flex__title {
 	font-weight: bold;
 	font-size: 1.875rem;
 	line-height: 2rem;
 }
-.blue-link {
+.figmaland-flex__link--blue {
 	color: #03D6F3;
 }
 
+.figmaland-flex__link {
+	text-decoration: none;
+	color: white;
+}
 
 
-h2 {
+.process-section-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+    padding: 7%;
+	row-gap: 100px;
+	column-gap: 40px;
+}
+.process-operation-title {
 	font-weight: 500;
 	font-size: 2.875rem;
 	line-height: 3.5rem;
 	text-align: center;
 }
 
-.figmaland-title {
-	margin: 8% 15%;
+.process-operation-section__img {
+	max-width: 100%;
+	object-fit: cover;
 }
-.process-title {
+
+
+.process-operation-title {
 	text-align: start;
-	margin-bottom: 0;
 }
-.process-content__sub-heading {
+.process-operation__sub-heading {
 	color: #5C5C5C;
-	margin-right: 5%;
+	margin-right: 3%;
+	margin-bottom: 10%;
+}
+.two-buttons--wide {
+	justify-content: flex-start;
 }
 
-.section-process-container {
-	display: flex;
-	margin: 0 6%;
-}
-
-.process-container {
-	margin-top: 15%;
-}
-
-.process-content {
-	display: flex;
-	flex-direction: column;
-	margin: 7% 0;
-	gap: 1rem;
-}
-
-.wide-blue-btn {
+.btn--wide-blue {
 	background-color: #03D6F3;
 	border: 1px solid #03D6F3;
 	width: 216px;
 	height: 52px;
 }
 
-.wide-white-btn {
+.btn--wide-white {
 	background-color: #FFFFFF;
 	color: #03D6F3;
 	border: 1px solid #03D6F3;
@@ -215,6 +219,12 @@ h2 {
 	height: 52px;
 }
 
+.btn-narrow-blue {
+	background-color: #03D6F3;
+	border: 1px solid #03D6F3;
+	width: 147px;
+	height: 52px;
+}
 
 
 
