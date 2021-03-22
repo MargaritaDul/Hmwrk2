@@ -30,6 +30,9 @@ body {
 	align-items: center;
 }
 
+.header__menu {
+	display: none;
+}
 
 .logo__image {
 	width: 100%;
@@ -136,7 +139,6 @@ body {
 .figmaland-flex {
 	display: flex;
 	gap: 2rem;
-	height: 440px;
 	margin-bottom: 10%;
 }
 .figmaland-flex-column {
@@ -207,7 +209,6 @@ body {
 }
 .two-buttons--wide {
 	justify-content: flex-start;
-	width: 251px;
 }
 
 .btn--wide-blue {
@@ -433,3 +434,126 @@ body {
 	gap: 1.5rem;
 }
 
+.two-buttons--wide--media {
+	display: none;
+}
+
+.button--media {
+	display: none;
+}
+
+.two-buttons--tall--media {
+	display: none;
+}
+
+
+@media only screen and (max-width:768px) {
+	.nav {
+		display:none;
+	}
+	.header__menu {
+		display: block;
+	}
+	.btn-header {
+		width: 120px;
+		height: 52px;
+	}
+	.heading{
+		font-weight: 500;
+		font-size: 2.875rem;
+	}
+	.btn-top {
+		width: 252px;
+	}
+	.two-buttons {
+		flex-direction: column;
+		align-items: center;
+	}	
+	.figmaland-flex {
+		flex-direction: column;
+	}
+	.process-section-grid {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: 0.25fr 1fr 0.25fr 1fr;
+		row-gap: 10px;
+	}
+	.process-section-grid__item:nth-child(3) {
+		grid-row: 4/5;
+	}
+	.process-section-grid__item:nth-child(4) {
+		grid-row: 3/4;
+	}
+	.two-buttons--wide {
+		display: none;
+	}
+	.two-buttons--wide--media {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.btn--wide-blue--media {
+		width: 338px;
+	}
+	.btn--wide-white-media {
+		width: 343px;
+	}
+	.button__process-media {
+		display: none;
+	}
+	.button--media {
+		display: flex;
+		justify-content: center;
+	}
+	.business-flex {
+		flex-direction: column;
+	}
+	.business-img {
+		width: 100%;
+	}
+	.two-buttons--tall--media {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.btn--tall--media {
+		width: 294px;
+		height: 76px;
+	}
+	.simple-flex {
+		flex-direction: column;
+	}
+	.simple-section::after {
+		content: "";
+		position: absolute;
+		bottom: -2%;
+		left: 10%;
+		background-color: #CDCDCD;
+		width: 432px;
+		border: 1px solid #CDCDCD;
+	}
+	.form-flex {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 1rem;
+		margin: 5% 0;
+	}
+	.form__email {
+		width: 100%;
+	}
+	.form__email::placeholder {
+		font-weight: 700;
+		font: 0.9rem Roboto, san-serif;
+		text-align: center;
+		padding-left: 0%;
+	}
+	.btn-subscribe--blue-uppercase {
+		width: 100%;
+		border-radius: 6px;
+	}
+	.flex-row {
+		flex-direction: column;
+		align-items: center;
+	}
+}
