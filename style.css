@@ -447,7 +447,7 @@ body {
 }
 
 
-@media only screen and (max-width:768px) {
+@media only screen and (max-width:376px) {
 	.nav {
 		display:none;
 	}
@@ -555,5 +555,14 @@ body {
 	.flex-row {
 		flex-direction: column;
 		align-items: center;
+	}
+	.simple-section_image {
+		height:262px;	
+	}
+	.simple-section_icon {
+		object-fit: contain;
+		height:262px;
+		height: 315px;
+    	width: 100%;
 	}
 }
